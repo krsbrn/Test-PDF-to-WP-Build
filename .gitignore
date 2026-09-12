@@ -46,3 +46,15 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# ignore CSS Directory
+wp-content/themes/client-theme/includes/css/*
+!wp-content/themes/client-theme/includes/css/.keep
+ 
+.DS_Store
+**/.DS_Store
+_notes/
+
+# ignore SFTP
+.vscode/
+**.vscode/
